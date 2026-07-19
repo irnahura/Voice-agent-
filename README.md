@@ -12,9 +12,6 @@
   </a>
 </h4>
 
-> [!NOTE]
-> This is an open-source project. Contributions are welcome!
-
 ## Introduction
 
 **VoiceAI** is an end-to-end open-source production-ready framework for quickly building LLM-based voice-driven conversational applications.
@@ -289,13 +286,3 @@ To extend and add other telephony providers like Vonage, Telnyx, etc., follow th
 3. Add a telephony-specific output handler file in `voiceai/output_handlers/telephony_providers/` with custom functions extending from the `telephony.py` class
    - This handles converting audio from the synthesizer to a supported format and streaming it over the websocket
 4. Write a dedicated server like the example `twilio_api_server.py` provided in `local_setup/telephony_server/` to initiate calls over websockets
-
-
-## Contributing
-We welcome all types of contributions, big or small, to help improve this community resource.
-
-1. Check the open issues for good starting points
-2. For simple fixes like typos or bug fixes, feel free to submit a pull request directly
-3. For larger changes or new features, please open an issue first to discuss your proposed changes before investing significant time
-
-Your contributions help make VoiceAI better for everyone!
