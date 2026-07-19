@@ -1,0 +1,35 @@
+{
+  "maintainers": [
+    {
+      "type": "organisation",
+      "role": "maintainer",
+      "name": "VoiceAI Project",
+      "email": "",
+      "url": "",
+      "phone": "",
+      "description": "Open-source tools for building voice agents",
+      "webpageUrl": {
+        "url": ""
+      }
+    }
+  ],
+  "projects": [
+    {
+      "guid": "voiceai",
+      "name": "VoiceAI",
+      "description": "Open-source tools for building voice agents",
+      "webpageUrl": {
+        "url": ""
+      },
+      "repositoryUrl": {
+        "url": ""
+      },
+      "licenses": [
+        {
+          "name": "MIT License",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      ]
+    }
+  ]
+}
